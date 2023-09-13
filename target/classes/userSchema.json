@@ -1,0 +1,51 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "id",
+        "createdAt"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "default": "",
+            "title": "The id Schema",
+            "examples": [
+                "187"
+            ]
+        },
+        "createdAt": {
+            "type": "string",
+            "default": "",
+            "title": "The createdAt Schema",
+            "examples": [
+                "2023-09-13T11:36:03.546Z"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Korey Fay"
+            ]
+        },
+        "job": {
+            "type": "string",
+            "default": "",
+            "title": "The job Schema",
+            "examples": [
+                "Hospitality"
+            ]
+        }
+    },
+    "examples": [{
+        "id": "187",
+        "createdAt": "2023-09-13T11:36:03.546Z",
+        "name": "Korey Fay",
+        "job": "Hospitality"
+    }]
+}
