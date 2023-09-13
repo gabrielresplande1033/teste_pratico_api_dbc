@@ -2,7 +2,7 @@
 Projeto tem como principal objetivo a avaliação do teste prático de API utilizando RestAssured, cujo objetivo era testar o método CREATE - POST da api [Reqres](https://reqres.in/api/), validando o Status Code, Campos obrigatórios e Contrato da Response. Também foi utilizado
 dados dinâmicos para geração dos dados da request.
 # Tecnologias utilizadas
-- Java
+- Java 8
 - RestAssured
 - JUnit
 - Maven
